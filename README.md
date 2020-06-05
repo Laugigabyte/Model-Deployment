@@ -149,7 +149,7 @@ flask==1.0.2
 gunicorn==19.7.1
 tensorflow-serving-api==1.10.1
 ```
-btw:安装tensorflow 1.8.0的话图像处理的函数会出现版本问题，最后升到1.9解决。
+btw :安装tensorflow 1.8.0的话图像处理的函数会出现版本问题，最后升到1.9解决。
 
 编写Dockerfile:
 
