@@ -1,3 +1,17 @@
+# TFRecords file
+
+  + TensorFlow提供了TFRecord的格式来统一存储数据，TFRecord格式是一种将图像数据和各种标签放在一起的二进制文件，在tensorflow中快速的复制、移动、读取、存储。特点：
+
+  + 文件格式：.tfrecord or .tfrecords
+
+  + 写入文件内容：使用Example将数据封装成protobuffer协议格式
+
+  + 体积小：消息大小只需要xml的1/10~1/3 
+  
+  + 解析速度快：解析速度比xml快20~100倍
+
+  + 每个example对应一张图片，其中包括图片的各种信息
+
 # Model-Deployment
 
 Applying tensorflow_serving for the model deployment
